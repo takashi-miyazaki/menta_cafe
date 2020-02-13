@@ -2,20 +2,51 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    text-align: center;
 
     &__logo {
         margin-right: auto; 
        }
 
-    &__menu {
+    &__feature {
+        border-right: solid;
+        border-left: solid;
+        border-width: 1px;
+        text-align: center;
+        padding: 0px 40px;
+        margin: 10px 0;
+    }
+
+    &__notice {
         border-right: solid;
         text-align: center;
-        padding: 0 20px;
+        border-width: 1px;
+        padding: 0px 40px;
+        margin: 10px 0;
     }
-    
+
     &__contact {
         padding: 0 20px;
         text-align: center;
+    }
+
+    &__contact {
+        padding: 0 40px;
+    }
+
+    &__mail {
+        border-right: solid;
+        border-bottom: solid;
+        border-left: solid;
+        border-width: 1px;
+        border-radius: 0 0 10px 10px;
+        padding: 5px 40px;
+        background-color: white;
+    }
+
+    &__tel {
+        margin-top: 5px;
+        
     }
 
 }
