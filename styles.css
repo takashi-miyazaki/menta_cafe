@@ -1,3 +1,7 @@
+body {
+  background-color: #FFF6E6;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -47,4 +51,17 @@
 
 .header__tel {
   margin-top: 5px;
+}
+
+.top {
+  display: flex;
+}
+
+.top__txt {
+  width: 340px;
+  height: 340px;
+  writing-mode: vertical-rl;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
 }
