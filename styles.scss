@@ -57,14 +57,28 @@ body {
 
 .top {
     display: flex;
+    justify-content: center;
 
     &__txt {
         width: 340px;
         height: 340px;
+        line-height: 340px;
         writing-mode: vertical-rl;
         text-align: center;
         background-color: white;
         border-radius: 50%;
 
     }
+}
+
+.feature {
+    &__ttl {
+        text-align: center;
+    }
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
 }
