@@ -1,0 +1,31 @@
+.feature__ttl {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content__img {
+  width: 420px;
+  height: 420px;
+  position: relative;
+}
+
+.content__imgbgc {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: lime;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.content__text {
+  height: 420px;
+  padding: 100px 50px;
+}

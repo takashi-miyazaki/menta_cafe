@@ -67,12 +67,3 @@ body {
   background-color: white;
   border-radius: 50%;
 }
-
-.feature__ttl {
-  text-align: center;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-}
