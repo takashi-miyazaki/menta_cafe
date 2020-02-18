@@ -6,6 +6,7 @@
 .content {
   display: flex;
   justify-content: center;
+  margin: 50px;
 }
 
 .content__img {
@@ -15,9 +16,6 @@
 }
 
 .content__imgbgc {
-  position: absolute;
-  top: 30px;
-  right: 30px;
   background-color: lime;
   width: 420px;
   height: 420px;
@@ -28,4 +26,43 @@
 .content__text {
   height: 420px;
   padding: 100px 50px;
+}
+
+.contentrvs {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.contentrvs__img {
+  width: 420px;
+  height: 420px;
+  position: relative;
+  order: 2;
+}
+
+.contentrvs__imgbgc {
+  background-color: lime;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.contentrvs__text {
+  height: 420px;
+  padding: 100px 50px;
+  order: 1;
+}
+
+.-left {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.-right {
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
