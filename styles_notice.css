@@ -1,4 +1,4 @@
-.notice__ttl {
-  display: inline-block;
-  border-bottom: dashed 1px;
+.notice {
+  text-decoration: underline;
+  text-align: center;
 }
