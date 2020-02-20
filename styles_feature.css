@@ -3,6 +3,15 @@
   margin: 100px auto;
 }
 
+.feature__btn {
+  width: 300px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px 40px;
+  border: solid 1px;
+  border-radius: 15px;
+}
+
 .content {
   display: flex;
   justify-content: center;
