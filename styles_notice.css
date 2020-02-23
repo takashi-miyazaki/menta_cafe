@@ -12,3 +12,7 @@
 .post {
   margin: 30px auto;
 }
+
+.-top {
+  font-size: 1rem;
+}
