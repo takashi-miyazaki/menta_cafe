@@ -1,0 +1,35 @@
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 510px;
+
+    &__ttl {
+        border-bottom: dotted;
+        margin-bottom: 20px;
+
+        img {
+            width: 135px;
+            height: 23px;
+        }
+    }
+
+    &__bizhour {
+        
+        table {
+            width: 510px;
+            height: 190px;
+        }
+    }
+}
+
+.contactblk {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+
+

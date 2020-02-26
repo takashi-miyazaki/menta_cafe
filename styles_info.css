@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 510px;
+}
+
+.info__ttl {
+  border-bottom: dotted;
+  margin-bottom: 20px;
+}
+
+.info__ttl img {
+  width: 135px;
+  height: 23px;
+}
+
+.info__bizhour table {
+  width: 510px;
+  height: 190px;
+}
+
+.contactblk {
+  display: flex;
+  margin-bottom: 20px;
+}
