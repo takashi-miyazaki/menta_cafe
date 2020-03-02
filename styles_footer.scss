@@ -1,0 +1,24 @@
+.footer {
+    text-align: center;
+    margin-top: 50px;
+
+    &__contact {
+        display: inline;
+        text-align: center;
+        border-right: 1px solid;
+        padding-right: 30px;
+    }
+
+    &__regal {
+        display: inline;
+        text-align: center;
+        padding-left: 30px;
+
+    }
+
+    &__copyright {
+        margin-top: 30px;
+        background-color: #653F36;
+        color: white;
+    }
+}

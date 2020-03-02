@@ -7,7 +7,7 @@
     width: 510px;
 
     &__ttl {
-        border-bottom: dotted;
+        border-bottom: 1px dashed;
         margin-bottom: 20px;
 
         img {
@@ -17,11 +17,27 @@
     }
 
     &__bizhour {
-        
+
         table {
-            width: 510px;
-            height: 190px;
+        width: 510px;
+        height: 190px;
         }
+    
+        table,td,th {  
+        border-collapse: collapse;  
+        border: 1px solid;
+        padding: 10px;
+        }
+
+        thead {
+        background-color: #653F36;
+        color: white;
+        border: 1px solid;
+        }
+
+    }
+    &__contact {
+        margin-right: 50px;
     }
 }
 
@@ -32,4 +48,28 @@
 }
 
 
+.map {
+    margin: 0 50px;
 
+
+    &__google {
+        width: 440px;
+        height: 280px;
+        background-color: tomato;
+        margin-bottom: 30px;
+    }
+
+    &__add {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    &__btn {
+        display: inline;
+        width: 300px;
+        text-align: center;
+        padding: 20px 40px;
+        border: solid 1px;
+        border-radius: 15px;
+    }
+}

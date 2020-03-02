@@ -8,7 +8,7 @@
 }
 
 .info__ttl {
-  border-bottom: dotted;
+  border-bottom: 1px dashed;
   margin-bottom: 20px;
 }
 
@@ -22,7 +22,48 @@
   height: 190px;
 }
 
+.info__bizhour table, .info__bizhour td, .info__bizhour th {
+  border-collapse: collapse;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.info__bizhour thead {
+  background-color: #653F36;
+  color: white;
+  border: 1px solid;
+}
+
+.info__contact {
+  margin-right: 50px;
+}
+
 .contactblk {
   display: flex;
   margin-bottom: 20px;
+}
+
+.map {
+  margin: 0 50px;
+}
+
+.map__google {
+  width: 440px;
+  height: 280px;
+  background-color: tomato;
+  margin-bottom: 30px;
+}
+
+.map__add {
+  display: inline;
+  margin-right: 30px;
+}
+
+.map__btn {
+  display: inline;
+  width: 300px;
+  text-align: center;
+  padding: 20px 40px;
+  border: solid 1px;
+  border-radius: 15px;
 }
