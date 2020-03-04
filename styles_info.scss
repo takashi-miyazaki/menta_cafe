@@ -21,18 +21,22 @@
         table {
         width: 510px;
         height: 190px;
+        border: 1px solid #653F36;
+        border-collapse: collapse;  
+
         }
     
-        table,td,th {  
+        td,th {  
         border-collapse: collapse;  
-        border: 1px solid;
         padding: 10px;
+        border: 1px solid #653F36;
         }
 
         thead {
+        border-collapse: collapse;
         background-color: #653F36;
         color: white;
-        border: 1px solid;
+        border: 1px solid #653F36;
         }
 
     }

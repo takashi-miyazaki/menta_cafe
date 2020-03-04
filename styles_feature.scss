@@ -1,3 +1,8 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
 .feature {
     &__ttl {
         text-align: center;
@@ -12,8 +17,21 @@
         border: solid 1px;
         border-radius: 15px;
     }
+
+    &__icon {
+        text-align: center;
+        font-size: 20px;
+        border: 2px solid;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+
+
+    }
     
 }
+
+
 
 .content {
     display: flex;
