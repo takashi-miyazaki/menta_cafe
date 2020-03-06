@@ -1,6 +1,23 @@
 .contact {
   display: flex;
   justify-content: center;
+  position: relative;
+  margin-top: 200px;
+}
+
+.contact:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 180%;
+  margin: -5% -5% -10%;
+  background: pink;
+  transform-origin: left center;
+  transform: rotate(-3deg);
+  z-index: -1;
+  overflow: hidden;
 }
 
 .info {

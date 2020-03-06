@@ -3,6 +3,8 @@
   flex-direction: row;
   width: 100%;
   text-align: center;
+  background-color: #FFF6E6;
+  margin-bottom: 50px;
 }
 
 .header__logo {
@@ -52,6 +54,21 @@
 .top {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.top:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 130%;
+  margin: -5% -5% 0;
+  background: #FFF6E6;
+  transform-origin: left center;
+  transform: rotate(-8deg);
+  z-index: -1;
 }
 
 .top__txt {
