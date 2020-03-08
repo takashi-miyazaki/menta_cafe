@@ -12,7 +12,7 @@
         width: 120%;
         height: 180%;
         margin: -5% -5% -10%;
-        background: pink;
+        background: #FFF6E6;
             // -webkit-transform-origin: left center;
             // -ms-transform-origin: left center;
         transform-origin: left center;
@@ -25,7 +25,7 @@
 }
 
 .info {
-    width: 510px;
+    width: 600px;
 
     &__ttl {
         border-bottom: 1px dashed;
@@ -38,19 +38,22 @@
     }
 
     &__bizhour {
+        font-family: YuMincho;
+        color: #653F36;
+        
 
         table {
         width: 510px;
         height: 190px;
         border: 1px solid #653F36;
-        border-collapse: collapse;  
-
+        border-collapse: collapse;
         }
     
         td,th {  
         border-collapse: collapse;  
         padding: 10px;
         border: 1px solid #653F36;
+        font-weight: lighter;
         }
 
         thead {
@@ -63,6 +66,26 @@
     }
     &__contact {
         margin-right: 50px;
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        padding: 10px 5px;
+        border: solid 1px #A33143;
+        border-radius: 15px;
+        color: #A33143;
+        
+    }
+
+    &__tel {
+        
+        p {
+            font-size: 25px;
+            font-family: YuMincho;
+        }
+
+        span {
+            font-size: 12px;
+        }
     }
 }
 
@@ -94,7 +117,8 @@
         width: 300px;
         text-align: center;
         padding: 20px 40px;
-        border: solid 1px;
+        border: solid 1px #A33143;
         border-radius: 15px;
+        color: #A33143;
     }
 }

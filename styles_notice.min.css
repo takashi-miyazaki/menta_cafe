@@ -1,1 +1,1 @@
-.notice{width:100%;display:flex;flex-direction:column}.notice__ttl{text-align:center;margin:50px auto}.post{margin:30px auto}.-top{font-size:1.05em}
+.notice{width:100%;display:flex;flex-direction:column}.notice__ttl{text-align:center;margin:50px auto;font-family:YuMincho;text-decoration:underline dotted;font-size:35px;color:#653F36;font-weight:normal}.post{margin:30px auto}.post__ttl{font-family:YuMincho;color:#653F36;font-size:26px}

@@ -7,15 +7,25 @@
     &__ttl {
         text-align: center;
         margin: 100px auto;
+        font-family: YuMincho;
+        color: #653F36;
+        font-size: 35px;
+        text-decoration: underline dotted;
+        font-weight: normal;
+
     }
 
     &__btn {
-        width: 300px;
+        width: 170px;
+        height: 40px;
         text-align: center;
         margin: 50px auto;
-        padding: 20px 40px;
-        border: solid 1px;
+        padding: 10px 10px;
+        border: solid 1px #A33143;
         border-radius: 15px;
+        font-family: YuMincho;
+        color: #A33143;
+
     }
 
     &__icon {
@@ -49,7 +59,7 @@
         // position: absolute;
         // top: 30px;
         // right: 30px;
-        background-color: lime;
+        background-color: #FFF6E6;
         width: 420px;
         height: 420px;
         border-radius: 50%;
@@ -61,7 +71,20 @@
     &__text {
         height: 420px;
         padding: 100px 50px;
+
+        h3 {
+            font-family: YuMincho;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 30px 0;
+            }
+
+        p  {
+            font-size: 15px;
+
+        }
     }
+
 
 }
 .contentrvs {
@@ -82,7 +105,7 @@
         // position: absolute;
         // top: 30px;
         // right: 30px;
-        background-color: lime;
+        background-color: #FFF6E6;
         width: 420px;
         height: 420px;
         border-radius: 50%;
@@ -95,6 +118,11 @@
         height: 420px;
         padding: 100px 50px;
         order: 1;
+    }
+
+    h2,h3 {
+    font-family: YuMincho;
+
     }
 
 

@@ -13,7 +13,7 @@
   width: 120%;
   height: 180%;
   margin: -5% -5% -10%;
-  background: pink;
+  background: #FFF6E6;
   transform-origin: left center;
   transform: rotate(-3deg);
   z-index: -1;
@@ -21,7 +21,7 @@
 }
 
 .info {
-  width: 510px;
+  width: 600px;
 }
 
 .info__ttl {
@@ -32,6 +32,11 @@
 .info__ttl img {
   width: 135px;
   height: 23px;
+}
+
+.info__bizhour {
+  font-family: YuMincho;
+  color: #653F36;
 }
 
 .info__bizhour table {
@@ -45,6 +50,7 @@
   border-collapse: collapse;
   padding: 10px;
   border: 1px solid #653F36;
+  font-weight: lighter;
 }
 
 .info__bizhour thead {
@@ -56,6 +62,22 @@
 
 .info__contact {
   margin-right: 50px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 5px;
+  border: solid 1px #A33143;
+  border-radius: 15px;
+  color: #A33143;
+}
+
+.info__tel p {
+  font-size: 25px;
+  font-family: YuMincho;
+}
+
+.info__tel span {
+  font-size: 12px;
 }
 
 .contactblk {
@@ -84,6 +106,7 @@
   width: 300px;
   text-align: center;
   padding: 20px 40px;
-  border: solid 1px;
+  border: solid 1px #A33143;
   border-radius: 15px;
+  color: #A33143;
 }
