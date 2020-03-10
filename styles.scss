@@ -38,31 +38,34 @@
         border-left: solid;
         border-width: 0.5px;
         text-align: center;
-        padding: 0px 40px;
-        padding-left: 60px;
-        padding-right: 54px;
-        margin: 10px 0;
+        /* padding: 0px 26px; */
+        padding-left: 56px;
+        padding-right: 56px;
+        margin: 18px 0px;
+        margin-top: 24px;
         border-color: #653F36;
+        height: 48px;
+        font-size: 17px;
     }
 
     &__notice {
         border-right: solid;
         text-align: center;
         border-width: 0.5px;
-        padding: 14px 0;
-        padding-right: 29px;
-        padding-left: 30px;
+        padding: 2px 0;
+        padding-right: 28px;
+        padding-left: 24px;
         margin: 10px 0;
+        margin-top: 22px;
+        margin-right: -8px;
         border-color: #653F36;
-    }
+        height: 48px;
+        font-size: 18px;
+        }   
 
     &__contact {
-        padding: 0 20px;
-        text-align: center;
-    }
-
-    &__contact {
-        padding: 0 40px;
+        padding: 0 45px;
+        // margin-right: 171px;
     }
 
     &__mail {
