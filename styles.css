@@ -80,15 +80,16 @@
   top: 0;
   left: 0;
   width: 150%;
-  height: 130%;
-  margin: -5% -5% 0;
+  height: 160%;
+  margin: -5% -6% 0;
   background: #FFF6E6;
   transform-origin: left center;
-  transform: rotate(-8deg);
+  transform: rotate(-12deg);
   z-index: -1;
 }
 
 .top__txt {
+  position: absolute;
   width: 340px;
   height: 340px;
   line-height: 340px;
@@ -96,4 +97,13 @@
   text-align: center;
   background-color: white;
   border-radius: 50%;
+  right: 249px;
+  bottom: 75px;
+  box-shadow: 0 0 32px 6px #FFF6E6 inset;
+}
+
+.top__img {
+  position: relative;
+  margin-right: 234px;
+  z-index: 10;
 }

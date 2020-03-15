@@ -6,13 +6,12 @@
 .feature {
     &__ttl {
         text-align: center;
-        margin: 100px auto;
+        margin-top: 140px;
         font-family: YuMincho;
         color: #653F36;
-        font-size: 35px;
+        font-size: 25px;
         text-decoration: underline dotted;
         font-weight: normal;
-
     }
 
     &__btn {
@@ -46,12 +45,15 @@
 .content {
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin-left: 21px;
+    margin-right: 39px;
+    margin-top: 42px;
 
     &__img {
         width: 420px;
         height: 420px;
         position: relative;
+        margin-right: 68px;
 
     }
 
@@ -69,20 +71,20 @@
     }
 
     &__text {
-        height: 420px;
-        padding: 100px 50px;
+        height: 248px;
+        width: 440px;
+        margin-top: 181px;
 
         h3 {
             font-family: YuMincho;
             font-size: 25px;
             font-weight: normal;
-            padding: 30px 0;
+            padding-bottom: 11px;
             color: #653F36;
             }
 
         p  {
-            font-size: 15px;
-
+            font-size: 16px;
         }
     }
 
@@ -92,7 +94,9 @@
 
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin-left: 2px;
+    margin-right: 39px;
+    margin-top: 42px;
 
     &__img {
         width: 420px;
@@ -116,13 +120,20 @@
     }
 
     &__text {
-        height: 420px;
-        padding: 100px 50px;
-        order: 1;
-    }
+        height: 248px;
+        margin-top: 181px;
 
-    h2,h3 {
-    font-family: YuMincho;
+        h3 {
+            font-family: YuMincho;
+            font-size: 25px;
+            font-weight: normal;
+            padding-bottom: 11px;
+            color: #653F36;
+        }
+
+        p  {
+            font-size: 15px;
+        }
 
     }
 
