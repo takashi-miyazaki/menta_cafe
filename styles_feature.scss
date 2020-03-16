@@ -18,10 +18,11 @@
         width: 170px;
         height: 40px;
         text-align: center;
-        margin: 50px auto;
+        margin: 0 auto;
+        margin-top: 92px;
         padding: 10px 10px;
         border: solid 1px #A33143;
-        border-radius: 15px;
+        border-radius: 6px;
         font-family: YuMincho;
         color: #A33143;
 
@@ -94,14 +95,15 @@
 
     display: flex;
     justify-content: center;
-    margin-left: 2px;
-    margin-right: 39px;
-    margin-top: 42px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 27px;
 
     &__img {
         width: 420px;
         height: 420px;
         position: relative;
+        margin-left: 19px;
         order: 2;
 
     }
@@ -121,13 +123,16 @@
 
     &__text {
         height: 248px;
-        margin-top: 181px;
+        width: 358px;
+        margin-top: 156px;
+        margin-right: 84px;
+        margin-left: 34px;
 
         h3 {
             font-family: YuMincho;
             font-size: 25px;
             font-weight: normal;
-            padding-bottom: 11px;
+            // padding-bottom: 11px;
             color: #653F36;
         }
 
@@ -151,4 +156,14 @@
     position: absolute;
     top: 30px;
     left: 30px;
+}
+
+.-adjust3rd {
+    margin-top: 152px;
+    margin-left: 2px;
+}
+
+.-adjust4th {
+    margin-top: 179px;
+    margin-right: 80px;
 }
