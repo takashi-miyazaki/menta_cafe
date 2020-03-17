@@ -5,10 +5,11 @@
 
     &__ttl {
         text-align: center;
-        margin: 50px auto;            
+        margin-top: 111px;
+        margin-bottom: 30px;
         font-family: YuMincho;
         text-decoration: underline dotted;
-        font-size: 35px;
+        font-size: 25px;
         color: #653F36;
         font-weight: normal;
     }
@@ -16,16 +17,18 @@
 }
 
 .post {
-    margin: 30px auto;
+    margin-left: 320px;
+    margin-top: 40px;
+    // margin-bottom: 32px;
 
     &__ttl {
         font-family: YuMincho;
         color: #653F36;
         font-size: 26px;
     }
+
+    &__text {
+        width: 715px;
+    }
 }
 
-// 一番上のpostだけ大きく。
-// .-top {
-//     font-size: 1.05em;
-// }
