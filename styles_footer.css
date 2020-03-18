@@ -8,17 +8,19 @@
   display: inline;
   text-align: center;
   border-right: 1px solid;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 .footer__regal {
   display: inline;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .footer__copyright {
-  margin-top: 30px;
+  margin-top: 14px;
+  line-height: 26px;
+  font-size: 12px;
   background-color: #653F36;
   color: white;
 }

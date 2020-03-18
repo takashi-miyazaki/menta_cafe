@@ -1,8 +1,8 @@
 .contact {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   position: relative;
-  margin-top: 200px;
+  margin-top: 355px;
 }
 
 .contact:before {
@@ -12,16 +12,17 @@
   left: 0;
   width: 120%;
   height: 180%;
-  margin: -5% -5% -10%;
+  margin: -4% -5% -10%;
   background: #FFF6E6;
   transform-origin: left center;
-  transform: rotate(-3deg);
+  transform: rotate(-6deg);
   z-index: -1;
   overflow: hidden;
 }
 
 .info {
-  width: 600px;
+  width: 510px;
+  margin-left: 184px;
 }
 
 .info__ttl {
@@ -41,7 +42,7 @@
 
 .info__bizhour table {
   width: 510px;
-  height: 190px;
+  height: 178px;
   border: 1px solid #653F36;
   border-collapse: collapse;
 }
@@ -53,6 +54,10 @@
   font-weight: lighter;
 }
 
+.info__bizhour th:nth-child(1) {
+  width: 175px;
+}
+
 .info__bizhour thead {
   border-collapse: collapse;
   background-color: #653F36;
@@ -61,23 +66,42 @@
 }
 
 .info__contact {
-  margin-right: 50px;
-  width: 300px;
+  margin-right: 25px;
+  margin-left: -3px;
+  width: 246px;
   height: 40px;
   text-align: center;
   padding: 10px 5px;
   border: solid 1px #A33143;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #A33143;
 }
 
-.info__tel p {
-  font-size: 25px;
+.info__contact p {
+  font-size: 16px;
   font-family: YuMincho;
 }
 
+.info__contact p img {
+  margin-right: 9px;
+}
+
+.info__tel {
+  margin-top: -6px;
+  margin-left: 4px;
+}
+
+.info__tel p {
+  font-size: 24px;
+  font-family: YuMincho;
+  letter-spacing: 2.7px;
+}
+
 .info__tel span {
-  font-size: 12px;
+  display: block;
+  font-size: 11px;
+  margin-left: 25px;
+  margin-top: -8px;
 }
 
 .contactblk {
@@ -85,28 +109,33 @@
   margin-bottom: 20px;
 }
 
+.mapbox {
+  display: flex;
+}
+
 .map {
-  margin: 0 50px;
+  margin: -7px 45px;
 }
 
 .map__google {
   width: 440px;
   height: 280px;
   background-color: tomato;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .map__add {
-  display: inline;
-  margin-right: 30px;
+  margin-right: 15px;
+  font-size: 14px;
 }
 
 .map__btn {
-  display: inline;
-  width: 300px;
+  width: 219px;
   text-align: center;
-  padding: 20px 40px;
+  padding: 9px 22px;
   border: solid 1px #A33143;
-  border-radius: 15px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: YuMincho;
   color: #A33143;
 }
