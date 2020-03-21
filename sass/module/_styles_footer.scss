@@ -1,6 +1,6 @@
 .footer {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: #FFF6E6;
 
     &__contact {
@@ -8,13 +8,16 @@
         text-align: center;
         border-right: 1px solid;
         padding-right: 10px;
+        font-size: 14px;
+        color: #653F36;
     }
 
     &__regal {
         display: inline;
         text-align: center;
         padding-left: 10px;
-
+        font-size: 14px;
+        color: #653F36;
     }
 
     &__copyright {
