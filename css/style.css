@@ -69,6 +69,10 @@
   color: #653F36;
 }
 
+.sp {
+  display: none;
+}
+
 .top {
   display: flex;
   justify-content: center;
@@ -455,4 +459,53 @@
   font-size: 12px;
   background-color: #653F36;
   color: white;
+}
+
+@media screen and (max-width: 1366px) {
+  .header__logo {
+    max-width: 135px;
+  }
+  .header__feature {
+    display: none;
+  }
+  .header__notice {
+    display: none;
+  }
+  .header__contact {
+    display: none;
+  }
+  .header__mail {
+    display: none;
+  }
+  .header__tel {
+    display: none;
+  }
+  .sp {
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 46px;
+    top: 21px;
+    width: 22px;
+    z-index: 99;
+  }
+  .sp__line {
+    background: #5f2201;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: transform .3s;
+    width: 100%;
+  }
+  .sp__menu {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+  }
+  .-middle {
+    top: 9px;
+  }
+  .-bottom {
+    bottom: 0;
+  }
 }
