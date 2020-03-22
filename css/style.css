@@ -4,7 +4,7 @@
   width: 100%;
   text-align: center;
   background-color: #FFF6E6;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   font-family: YuMincho;
   color: #653F36;
 }
@@ -507,5 +507,13 @@
   }
   .-bottom {
     bottom: 0;
+  }
+  .top__img {
+    max-width: 250px;
+    width: 100%;
+  }
+  .top__img img {
+    width: 100%;
+    height: 100%;
   }
 }
