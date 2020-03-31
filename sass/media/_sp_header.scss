@@ -106,6 +106,17 @@
 
         &__img {
             margin: 0;
+            max-width: 310px;
+
+            img  {
+                width: 100%;
+            }
+        }
+        
+        &__imgbgc {
+            max-width: 310px;
+            max-height: 310px;
+            width: 100%;
         }
 
         &__text {
@@ -120,13 +131,22 @@
         &__img {
             order: 1;
             margin: 0;
+            max-width: 310px;
+            
+            img  {
+                width: 100%;
+            }
         }
 
-        &__txt {
+        &__imgbgc {
+            max-width: 310px;
+            max-height: 310px;
+            width: 100%;
+        }
+
+        &__text {
             order: 2;
             margin: 0;
         }
     }
-
-
 }
