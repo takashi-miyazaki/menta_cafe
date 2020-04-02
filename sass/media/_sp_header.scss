@@ -106,7 +106,7 @@
         margin: 0;
 
         &__img {
-            margin: 0;
+            margin: 0 auto;
             max-width: 310px;
             order: 2;
 
@@ -122,7 +122,7 @@
         }
 
         &__text {
-            margin-top: 20px;
+            margin: 20px auto 0 auto;
             order: 1;
             height: auto;
 
@@ -135,7 +135,7 @@
 
         &__img {
             order: ２;
-            margin: 0;
+            margin: 0 auto;
             max-width: 310px;
             
             img  {
@@ -150,8 +150,8 @@
         }
 
         &__text {
+            margin: 20px auto 0 auto;
             order: １;
-            margin: 0;
         }
     }
 
