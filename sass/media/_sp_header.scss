@@ -125,6 +125,8 @@
             margin: 20px auto 0 auto;
             order: 1;
             height: auto;
+            width: 100%;
+            text-align: center;
 
         }
     }
@@ -152,6 +154,7 @@
         &__text {
             margin: 20px auto 0 auto;
             order: １;
+            height: auto;
         }
     }
 
@@ -162,4 +165,9 @@
     .contact {
         display: none;
     }
+
+    .-adjust3rd {
+        margin: 0;
+    }
+       
 }
