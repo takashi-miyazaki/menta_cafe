@@ -470,13 +470,42 @@ body {
     margin: 0;
     width: 100%; }
     .info__contact {
-      margin-left: 0; }
+      margin-left: 0;
+      margin-right: 13px;
+      width: 180px; }
+      .info__contact p {
+        font-size: 12px; }
+    .info__tel {
+      padding-top: 8px; }
+      .info__tel p {
+        font-size: 16px; }
+      .info__tel span {
+        margin-left: 0; }
     .info__bizhour {
       display: none; }
+  .contactblk {
+    justify-content: center; }
   .map {
-    margin: 0 auto; }
+    max-width: 480px;
+    max-height: 280px; }
     .map__google {
+      position: relative;
       width: 100%;
-      height: 100%; }
+      padding-top: 58%; }
+      .map__google iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+    .map__add {
+      margin: 0 auto; }
+    .map__btn {
+      margin: 0 auto; }
+  .mapbox {
+    flex-direction: column;
+    justify-content: center; }
   .-adjust3rd {
-    margin: 0; } }
+    margin: 0; }
+  .footer {
+    margin-top: 130px; } }
