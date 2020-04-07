@@ -456,9 +456,9 @@ body {
       order: １;
       height: auto; }
   .post {
-    margin: 0 auto;
+    margin: 0 20px;
     padding: 30px 20px;
-    border-bottom: solid 1px; }
+    border-top: dashed 1px; }
     .post__text {
       width: 100%; }
   .contact {
@@ -469,6 +469,9 @@ body {
   .info {
     margin: 0;
     width: 100%; }
+    .info__ttl {
+      margin: 0 20px;
+      margin-bottom: 20px; }
     .info__contact {
       margin-left: 0;
       margin-right: 13px;
