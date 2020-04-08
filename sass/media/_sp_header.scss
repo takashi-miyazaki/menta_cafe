@@ -177,7 +177,8 @@
         // display: none;
         flex-direction: column;
         margin-top: 50px;
-
+        background-image: url("../../img/bg_footer.png");
+        background-size: cover;
 
         &::before {
             display: none;
@@ -187,6 +188,7 @@
     .info {
         margin: 0;
         width: 100%;
+        // background-image: url("img/bg_footer.png");
 
         &__ttl {
             margin: 0 20px;

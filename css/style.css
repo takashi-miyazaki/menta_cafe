@@ -463,7 +463,9 @@ body {
       width: 100%; }
   .contact {
     flex-direction: column;
-    margin-top: 50px; }
+    margin-top: 50px;
+    background-image: url("../../img/bg_footer.png");
+    background-size: cover; }
     .contact::before {
       display: none; }
   .info {
