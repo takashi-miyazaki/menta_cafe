@@ -76,6 +76,7 @@
         border: solid 1px #A33143;
         border-radius: 5px;
         color: #A33143;
+        background-color: white;
 
         p {
             font-size: 16px;
@@ -117,7 +118,7 @@
 }
 
 .map {
-    margin: -7px 45px;
+    // margin: -7px 45px;
 
 
     &__google {
@@ -142,5 +143,6 @@
         font-size: 15px;
         font-family: YuMincho;
         color: #A33143;
+        background-color: white;
     }
 }
