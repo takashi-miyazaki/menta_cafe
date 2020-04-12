@@ -461,11 +461,14 @@ body {
     border-top: dashed 1px; }
     .post__text {
       width: 100%; }
-  .contact {
-    flex-direction: column;
-    margin-top: 50px;
+  .notice__footer {
+    height: 50px;
     background-image: url("../../img/bg_footer.png");
     background-size: cover; }
+  .contact {
+    flex-direction: column;
+    margin-top: 0px;
+    background-color: #FFF6E6; }
     .contact::before {
       display: none; }
   .info {
@@ -513,4 +516,5 @@ body {
   .-adjust3rd {
     margin: 0; }
   .footer {
-    margin-top: 130px; } }
+    margin-top: 130px;
+    background-color: #FFF6E6; } }
