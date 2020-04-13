@@ -403,8 +403,9 @@ body {
     flex-direction: column;
     background-image: url(../../img/bg_top.png);
     background-size: cover;
-    padding-bottom: 230px;
-    object-fit: cover; }
+    padding-bottom: 50px;
+    object-fit: cover;
+    background-position: 0 -100px; }
     .top::before {
       display: none; }
     .top__img {
