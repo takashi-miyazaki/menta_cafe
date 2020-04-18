@@ -339,7 +339,6 @@ body {
 
 .footer {
   text-align: center;
-  margin-top: 60px;
   background-color: #FFF6E6; }
   .footer__contact {
     display: inline;
@@ -524,4 +523,29 @@ body {
     margin: 0; }
   .footer {
     background-color: #FFF6E6;
-    margin: 0; } }
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 65px; }
+  .spfooter {
+    height: 64px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #4E1C01;
+    font-size: 11px; }
+    .spfooter img {
+      max-width: 18px;
+      margin: 0 auto; }
+    .spfooter__contents {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 10px 0;
+      padding: 0 30px;
+      border-right: 1px solid; }
+      .spfooter__contents:nth-child(3) {
+        border-right: none; } }

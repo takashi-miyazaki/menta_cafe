@@ -289,7 +289,45 @@
     .footer {
         background-color: #FFF6E6;
         margin: 0;
+        padding-top: 10px;
+        margin-bottom: 65px;
     }
+
+    .spfooter {
+        height: 64px;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        // margin: 0;
+        width: 100%;
+        background-color: #fff;
+        color: #4E1C01;
+        font-size: 11px;
+
+        img {
+            max-width: 18px;
+            margin: 0 auto;
+        }
+        
+        &__contents {
+        // 横並び、縦方向中央揃え
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        // 文字中央揃え
+          text-align: center;
+        // 余白調整
+            margin: 10px 0;
+            padding:0 30px;
+            border-right:1px solid ;    
+          
+          &:nth-child(3) {
+            border-right: none;
+          }
+        }
+        
+      }
 }
 
        
