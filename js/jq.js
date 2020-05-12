@@ -16,6 +16,23 @@ $(function(){
         $('.menu__line').toggleClass('active');
         $('.gnav').fadeToggle();
     });
+
+    $('.scroll').click(function(){
+        $('html, body').animate({scrollTop:0}, 'slow');
+        return false;
+    });
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 300) {
+            $('.scroll').fadeIn();
+        } else {
+            $('.scroll').fadeOut();
+        }
+    });
+    $('.scroll').click(function(){
+        $('html, body').animate({scrollTop:0}, 'slow');
+        return false;
+    });
     
     
     });
