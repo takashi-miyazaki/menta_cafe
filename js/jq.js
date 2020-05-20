@@ -9,12 +9,12 @@ $(function(){
 
     $('.sp').on('click',function(){
         $('.sp__line').toggleClass('active');
-        $('.gnav').fadeToggle();
+        $('.gnav').slideToggle();
     });
     
     $('.gnav__item').on('click',function(){
         $('.sp__line').toggleClass('active');
-        $('.gnav').fadeToggle();
+        $('.gnav').slideToggle();
     });
 
     $('.scroll').click(function(){

@@ -141,11 +141,13 @@
         
     .top {
         flex-direction: column;
-        background-image: url(../../img/bg_top.png);
-        background-size: cover;
+        background-color: #FFF6E6;
+        // background-image: url(../../img/bg_top.png);
+        // background-size: auto  ;
         padding-bottom: 50px;
-        object-fit: cover;
-        background-position: 0 -100px;
+        // object-fit: cover;
+        // background-position: 0 -100px;
+
 
 
         &::before {
@@ -178,9 +180,14 @@
             margin: 0 auto;
         }
 
-        // &__footer {
-        //     height: 50px;
-        //     background-image: url();}
+        &__footer {
+            img {
+                height: 60px;
+                width: 100%;
+            }
+            
+
+        }
 
         }
 
@@ -371,6 +378,7 @@
     .spfooter {
         height: 64px;
         display: flex;
+        justify-content: space-evenly;
         position: fixed;
         bottom: 0;
         left: 0;
@@ -389,7 +397,7 @@
         // 横並び、縦方向中央揃え
           display: flex;
           flex-direction: column;
-          justify-content: center;
+
         // 文字中央揃え
           text-align: center;
         // 余白調整
