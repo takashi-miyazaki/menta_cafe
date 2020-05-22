@@ -97,8 +97,13 @@ body {
     }
 
 }
-
+// スマホ用クラスのためPC版では非表示
 .sp {
+    display: none;
+}
+
+// スマホ用クラスのためPC版では非表示
+nav {
     display: none;
 }
 
