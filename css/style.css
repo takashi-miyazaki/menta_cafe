@@ -69,19 +69,8 @@ nav {
 .top {
   display: flex;
   justify-content: center;
-  position: relative; }
-  .top:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150%;
-    height: 160%;
-    margin: -5% -6% 0;
-    background: #FFF6E6;
-    transform-origin: left center;
-    transform: rotate(-12deg);
-    z-index: -1; }
+  position: relative;
+  background-color: #FFF6E6; }
   .top__txt {
     position: absolute;
     width: 340px;
@@ -98,6 +87,9 @@ nav {
     position: relative;
     margin-right: 234px;
     z-index: 10; }
+  .top__footer img {
+    width: 100%;
+    height: 295px; }
 
 .box {
   display: flex;
@@ -216,20 +208,8 @@ nav {
   display: flex;
   /* justify-content: center; */
   position: relative;
-  margin-top: 355px; }
-  .contact:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120%;
-    height: 180%;
-    margin: -4% -5% -10%;
-    background: #FFF6E6;
-    transform-origin: left center;
-    transform: rotate(-6deg);
-    z-index: -1;
-    overflow: hidden; }
+  padding-top: 50px;
+  background-color: #FFF6E6; }
 
 .info {
   width: 510px;
@@ -296,25 +276,25 @@ nav {
 .mapbox {
   display: flex; }
 
-.map__google {
-  width: 440px;
-  height: 280px;
-  margin-bottom: 10px; }
-
-.map__add {
-  margin-right: 15px;
-  font-size: 14px; }
-
-.map__btn {
-  width: 219px;
-  text-align: center;
-  padding: 9px 22px;
-  border: solid 1px #A33143;
-  border-radius: 6px;
-  font-size: 15px;
-  font-family: YuMincho;
-  color: #A33143;
-  background-color: white; }
+.map {
+  margin-left: 45px; }
+  .map__google {
+    width: 440px;
+    height: 280px;
+    margin-bottom: 10px; }
+  .map__add {
+    margin-right: 15px;
+    font-size: 14px; }
+  .map__btn {
+    width: 219px;
+    text-align: center;
+    padding: 9px 22px;
+    border: solid 1px #A33143;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: YuMincho;
+    color: #A33143;
+    background-color: white; }
 
 .notice {
   width: 100%;
@@ -329,6 +309,12 @@ nav {
     font-size: 25px;
     color: #653F36;
     font-weight: normal; }
+  .notice__spfooter {
+    display: none; }
+  .notice__footer {
+    height: 138px;
+    background-image: url("../../img/pc_footer_img.png");
+    background-size: cover; }
 
 .post {
   margin-left: 320px;
@@ -342,6 +328,7 @@ nav {
 
 .footer {
   text-align: center;
+  padding-top: 60px;
   background-color: #FFF6E6; }
   .footer__contact {
     display: inline;
@@ -466,6 +453,9 @@ nav {
       width: 100%;
       margin: 0 auto;
       margin-top: -80px; }
+      .top__img img {
+        width: 100%;
+        height: 100%; }
     .top__txt {
       position: static;
       order: 1;
@@ -524,6 +514,8 @@ nav {
     .post__text {
       width: 100%; }
   .notice__footer {
+    display: none; }
+  .notice__spfooter {
     height: 50px;
     background-image: url("../../img/bg_footer.png");
     background-size: cover; }

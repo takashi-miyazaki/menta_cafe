@@ -13,6 +13,17 @@
         color: #653F36;
         font-weight: normal;
     }
+
+    &__spfooter {
+        display: none;
+    }
+
+    &__footer {
+        height: 138px;
+        background-image: url("../../img/pc_footer_img.png");
+        background-size: cover;
+    }
+
         
 }
 
