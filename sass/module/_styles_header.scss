@@ -144,7 +144,14 @@ nav {
     &__img {
         position: relative;
         margin-right: 234px;
+        width: 570px;
+        height: 456px;
         z-index: 10;
+
+        //  img {
+        //      width: 100%;
+
+        //  }
     }
 
     &__footer {
