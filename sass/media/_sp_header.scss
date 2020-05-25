@@ -1,4 +1,4 @@
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1365px) {
     .header {
         &__logo {
             max-width: 135px;
@@ -152,6 +152,10 @@
 
         &::before {
             // margin: -28% -18% 0;
+            display: none;
+        }
+
+        &__bg {
             display: none;
         }
         
