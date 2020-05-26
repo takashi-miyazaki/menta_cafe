@@ -24,6 +24,7 @@
 .info {
     width: 510px;
     margin-left: 184px;
+    margin-top: 18px;
 
     &__ttl {
         border-bottom: 1px dashed;
@@ -43,8 +44,9 @@
 
         table {
         width: 510px;
-        height: 178px;
-        border: 1px solid #653F36;
+        height: 180px;
+        border: 2px solid #653F36;
+        background-color: white;
         border-collapse: collapse;
         }
     
@@ -110,7 +112,7 @@
 
 .contactblk {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 
 }
 
@@ -120,6 +122,7 @@
 
 .map {
     margin-left: 45px;
+    margin-top: 10px;
 
 
     &__google {
@@ -130,8 +133,10 @@
     }
 
     &__add {
-        margin-right: 15px;
+        margin-right: 12px;
+        margin-left: 3px;
         font-size: 14px;
+        line-height: 22px;
 
     }
 
@@ -139,6 +144,7 @@
         width: 219px;
         text-align: center;
         padding: 9px 22px;
+        margin-top: 2px;
         border: solid 1px #A33143;
         border-radius: 6px;
         font-size: 15px;

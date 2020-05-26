@@ -74,7 +74,7 @@ nav {
     position: absolute;
     width: 100%;
     z-index: -10;
-    top: -190px; }
+    top: -130px; }
     .top__bg img {
       width: 100%; }
   .top__txt {
@@ -116,7 +116,7 @@ nav {
   height: 40px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 92px;
+  margin-top: 88px;
   padding: 10px 10px;
   border: solid 1px #A33143;
   border-radius: 6px;
@@ -171,7 +171,8 @@ nav {
     width: 420px;
     height: 420px;
     position: relative;
-    margin-left: 19px;
+    margin-left: 23px;
+    margin-top: 5px;
     order: 2; }
   .contentrvs__imgbgc {
     background-color: #FFF6E6;
@@ -184,14 +185,16 @@ nav {
     width: 358px;
     margin-top: 156px;
     margin-right: 84px;
-    margin-left: 34px; }
+    margin-left: 34px;
+    line-height: 30px; }
     .contentrvs__text h3 {
       font-family: YuMincho;
       font-size: 25px;
       font-weight: normal;
       color: #653F36; }
     .contentrvs__text p {
-      font-size: 15px; }
+      font-size: 15px;
+      margin-top: 10px; }
 
 .-left {
   position: absolute;
@@ -206,6 +209,9 @@ nav {
 .-adjust3rd {
   margin-top: 152px;
   margin-left: 2px; }
+  .-adjust3rd h3 {
+    width: 350px;
+    padding-bottom: 2px; }
 
 .-adjust4th {
   margin-top: 179px;
@@ -220,7 +226,8 @@ nav {
 
 .info {
   width: 510px;
-  margin-left: 184px; }
+  margin-left: 184px;
+  margin-top: 18px; }
   .info__ttl {
     border-bottom: 1px dashed;
     margin-bottom: 20px; }
@@ -232,8 +239,9 @@ nav {
     color: #653F36; }
     .info__bizhour table {
       width: 510px;
-      height: 178px;
-      border: 1px solid #653F36;
+      height: 180px;
+      border: 2px solid #653F36;
+      background-color: white;
       border-collapse: collapse; }
     .info__bizhour td, .info__bizhour th {
       border-collapse: collapse;
@@ -278,24 +286,28 @@ nav {
 
 .contactblk {
   display: flex;
-  margin-bottom: 20px; }
+  margin-bottom: 16px; }
 
 .mapbox {
   display: flex; }
 
 .map {
-  margin-left: 45px; }
+  margin-left: 45px;
+  margin-top: 10px; }
   .map__google {
     width: 440px;
     height: 280px;
     margin-bottom: 10px; }
   .map__add {
-    margin-right: 15px;
-    font-size: 14px; }
+    margin-right: 12px;
+    margin-left: 3px;
+    font-size: 14px;
+    line-height: 22px; }
   .map__btn {
     width: 219px;
     text-align: center;
     padding: 9px 22px;
+    margin-top: 2px;
     border: solid 1px #A33143;
     border-radius: 6px;
     font-size: 15px;
@@ -320,7 +332,8 @@ nav {
     display: none; }
   .notice__footer {
     height: 138px;
-    width: 100%; }
+    width: 100%;
+    margin-top: 150px; }
     .notice__footer img {
       height: 138px;
       width: 100%; }
@@ -328,18 +341,27 @@ nav {
 .post {
   width: 720px;
   margin-left: 320px;
-  margin-top: 40px;
+  margin-top: 20px;
   border-top: solid 1px #F7E8E8; }
+  .post__date {
+    margin-top: 20px; }
   .post__ttl {
     font-family: YuMincho;
     color: #653F36;
     font-size: 26px; }
   .post__text {
-    width: 715px; }
+    width: 715px;
+    margin-bottom: 5px; }
+
+.secondpost {
+  margin-bottom: -10px; }
+
+.thirdpost {
+  margin-top: 17px; }
 
 .footer {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 50px;
   background-color: #FFF6E6; }
   .footer__contact {
     display: inline;
@@ -367,8 +389,8 @@ nav {
 .scroll {
   display: none;
   position: fixed;
-  bottom: 100px;
-  right: 30px; }
+  bottom: 134px;
+  right: 78px; }
 
 @media screen and (max-width: 1365px) {
   .header__logo {

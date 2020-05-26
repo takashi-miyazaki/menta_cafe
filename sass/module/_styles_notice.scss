@@ -21,6 +21,7 @@
     &__footer {
         height: 138px;
         width: 100%;
+        margin-top: 150px;
 
         img {
             height: 138px;
@@ -31,15 +32,21 @@
         // background-size: cover;
     }
 
+
         
 }
 
 .post {
     width: 720px;
     margin-left: 320px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-top: solid 1px #F7E8E8;
     // margin-bottom: 32px;
+
+    &__date {
+        margin-top: 20px;
+
+    }
 
     &__ttl {
         font-family: YuMincho;
@@ -49,6 +56,17 @@
 
     &__text {
         width: 715px;
+        margin-bottom: 5px;
+        
     }
+}
+
+.secondpost {
+    margin-bottom: -10px;
+}
+
+.thirdpost {
+    margin-top: 17px;
+
 }
 

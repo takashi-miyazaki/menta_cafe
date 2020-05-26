@@ -19,7 +19,7 @@
         height: 40px;
         text-align: center;
         margin: 0 auto;
-        margin-top: 92px;
+        margin-top: 88px;
         padding: 10px 10px;
         border: solid 1px #A33143;
         border-radius: 6px;
@@ -103,7 +103,8 @@
         width: 420px;
         height: 420px;
         position: relative;
-        margin-left: 19px;
+        margin-left: 23px;
+        margin-top: 5px;
         order: 2;
 
     }
@@ -127,6 +128,7 @@
         margin-top: 156px;
         margin-right: 84px;
         margin-left: 34px;
+        line-height: 30px;
 
         h3 {
             font-family: YuMincho;
@@ -138,6 +140,7 @@
 
         p  {
             font-size: 15px;
+            margin-top: 10px;
         }
 
     }
@@ -161,9 +164,13 @@
 .-adjust3rd {
     margin-top: 152px;
     margin-left: 2px;
+    h3 {
+        width: 350px;
+        padding-bottom: 2px;
+    }
 }
 
 .-adjust4th {
     margin-top: 179px;
     margin-right: 80px;
-}
+    }
