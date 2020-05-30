@@ -224,8 +224,8 @@
         margin: 0;
 
         &__img {
-            margin-top: -50px;
-            margin-left: 53px;
+            margin: -50px auto 0 auto;
+            // margin-left: 53px;
             max-width: 310px;
             height: 317px;
             order: 2;
@@ -242,7 +242,7 @@
         }
 
         &__text {
-            margin: 27px 5px 40px 35px;
+            margin: 27px auto 40px auto;
             order: 1;
             height: auto;
             width: 350px;
@@ -270,8 +270,8 @@
 
         &__img {
             order: 2;
-            margin-top: 3px;
-            margin-left: 54px;
+            margin: 3px auto 0 auto;
+            // margin-left: 54px;
             max-width: 310px;
             
             img  {
@@ -286,7 +286,7 @@
         }
 
         &__text {
-            margin-top: 62px;
+            margin: 62px auto 0 auto;
             order: 1;
             height: auto;
 
@@ -307,7 +307,7 @@
 
     .post {
         width: 350px;
-        margin:0 20px;
+        margin:0 auto;
         margin-bottom: -12px;
         padding: 30px 20px;
         border-top: dashed 1px #5f2201;
@@ -372,8 +372,8 @@
 
     .info {
         width: 390px;
-        margin-top: -3px;
-        margin-left: 13px;
+        margin: -3px auto 0 auto;
+        // margin-left: 13px;
         // background-image: url("img/bg_footer.png");
 
         &__ttl {
@@ -424,12 +424,13 @@
 
     .map {
         margin-top: 20px;
+        margin-left: 0;
 
         &__google {
             position: relative;
             width: 350px;
             height: 250px;
-            margin-left: -12px;
+            margin: 0 auto;
             display: block;
 
             iframe {  
@@ -443,10 +444,11 @@
             text-align: center;
             font-size: 12px;
             line-height: 19px;
+            margin: 14px 0 8px 0;
         }
 
         &__btn {
-            margin-left: 53px;
+            margin: 0 auto;
             padding: 8px 22px;
         }
     }
@@ -471,9 +473,9 @@
     }
 
     .-adjust4th {
-        margin-top: 74px;
-        margin-left: 33px;
-        margin-bottom: 16px;
+        margin-top: 74px auto 16pc auto;
+        // margin-left: 33px;
+        // margin-bottom: 16px;
     }
 
     .footer {
@@ -498,7 +500,7 @@
     .spfooter {
         height: 64px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         position: fixed;
         bottom: 0;
         left: 0;

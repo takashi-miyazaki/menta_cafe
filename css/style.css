@@ -219,7 +219,7 @@ nav {
 
 .contact {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   position: relative;
   padding-top: 50px;
   background-color: #FFF6E6; }
@@ -340,8 +340,7 @@ nav {
 
 .post {
   width: 720px;
-  margin-left: 320px;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
   border-top: solid 1px #F7E8E8; }
   .post__date {
     margin-top: 20px; }
@@ -522,8 +521,7 @@ nav {
     flex-direction: column;
     margin: 0; }
     .content__img {
-      margin-top: -50px;
-      margin-left: 53px;
+      margin: -50px auto 0 auto;
       max-width: 310px;
       height: 317px;
       order: 2; }
@@ -534,7 +532,7 @@ nav {
       max-height: 310px;
       width: 100%; }
     .content__text {
-      margin: 27px 5px 40px 35px;
+      margin: 27px auto 40px auto;
       order: 1;
       height: auto;
       width: 350px; }
@@ -551,8 +549,7 @@ nav {
     margin: 0; }
     .contentrvs__img {
       order: 2;
-      margin-top: 3px;
-      margin-left: 54px;
+      margin: 3px auto 0 auto;
       max-width: 310px; }
       .contentrvs__img img {
         width: 100%; }
@@ -561,7 +558,7 @@ nav {
       max-height: 310px;
       width: 100%; }
     .contentrvs__text {
-      margin-top: 62px;
+      margin: 62px auto 0 auto;
       order: 1;
       height: auto; }
       .contentrvs__text h3 {
@@ -570,7 +567,7 @@ nav {
         margin-top: 15px; }
   .post {
     width: 350px;
-    margin: 0 20px;
+    margin: 0 auto;
     margin-bottom: -12px;
     padding: 30px 20px;
     border-top: dashed 1px #5f2201; }
@@ -608,8 +605,7 @@ nav {
       display: none; }
   .info {
     width: 390px;
-    margin-top: -3px;
-    margin-left: 13px; }
+    margin: -3px auto 0 auto; }
     .info__ttl {
       margin: 0 20px;
       margin-bottom: 13px;
@@ -637,12 +633,13 @@ nav {
   .contactblk {
     justify-content: center; }
   .map {
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-left: 0; }
     .map__google {
       position: relative;
       width: 350px;
       height: 250px;
-      margin-left: -12px;
+      margin: 0 auto;
       display: block; }
       .map__google iframe {
         width: 100%;
@@ -651,9 +648,10 @@ nav {
       margin-left: -31px;
       text-align: center;
       font-size: 12px;
-      line-height: 19px; }
+      line-height: 19px;
+      margin: 14px 0 8px 0; }
     .map__btn {
-      margin-left: 53px;
+      margin: 0 auto;
       padding: 8px 22px; }
   .mapbox {
     flex-direction: column;
@@ -667,9 +665,7 @@ nav {
     .-adjust3rd p {
       line-height: 25px; }
   .-adjust4th {
-    margin-top: 74px;
-    margin-left: 33px;
-    margin-bottom: 16px; }
+    margin-top: 74px auto 16pc auto; }
   .footer {
     background-color: #FFF6E6;
     margin: 0;
@@ -684,7 +680,7 @@ nav {
   .spfooter {
     height: 64px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -707,4 +703,4 @@ nav {
         border-right: none; }
   .scroll {
     right: 28px;
-    bottom: 85px; } }
+    bottom: 100px; } }
