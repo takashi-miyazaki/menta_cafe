@@ -114,6 +114,7 @@ nav {
 .feature__btn {
   width: 170px;
   height: 40px;
+  line-height: 20px;
   text-align: center;
   margin: 0 auto;
   margin-top: 88px;
@@ -260,6 +261,7 @@ nav {
     margin-left: -3px;
     width: 246px;
     height: 40px;
+    line-height: 20px;
     text-align: center;
     padding: 10px 5px;
     border: solid 1px #A33143;
