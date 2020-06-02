@@ -74,7 +74,8 @@ nav {
     position: absolute;
     width: 100%;
     z-index: -10;
-    top: -130px; }
+    top: -130px;
+    right: 0; }
     .top__bg img {
       width: 100%; }
   .top__txt {
@@ -523,7 +524,7 @@ nav {
     flex-direction: column;
     margin: 0; }
     .content__img {
-      margin: -50px auto 0 auto;
+      margin: -30px auto 0 auto;
       max-width: 310px;
       height: 317px;
       order: 2; }
@@ -692,7 +693,7 @@ nav {
     font-size: 11px;
     z-index: 99; }
     .spfooter img {
-      max-width: 18px;
+      width: 18px;
       margin: 0 auto; }
     .spfooter__contents {
       display: flex;
