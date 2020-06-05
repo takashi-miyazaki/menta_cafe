@@ -78,6 +78,8 @@ nav {
     right: 0; }
     .top__bg img {
       width: 100%; }
+  .top__wrap {
+    position: relative; }
   .top__txt {
     position: absolute;
     width: 340px;
@@ -394,7 +396,7 @@ nav {
   bottom: 134px;
   right: 78px; }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1000px) {
   .header__logo {
     max-width: 135px;
     margin-top: 16px;

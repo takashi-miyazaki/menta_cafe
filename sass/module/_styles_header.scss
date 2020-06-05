@@ -142,6 +142,10 @@ nav {
 
     }
 
+    &__wrap {
+        position: relative;
+    }
+
     &__txt {
         position: absolute;
         width: 340px;
