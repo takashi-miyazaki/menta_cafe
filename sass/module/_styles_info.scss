@@ -23,7 +23,7 @@
 
 .info {
     width: 510px;
-    margin-left: 184px;
+    // margin-left: 184px;
     margin-top: 18px;
 
     &__ttl {
@@ -142,7 +142,8 @@
     }
 
     &__btn {
-        width: 219px;
+        width: 220px;
+        height: 40px;
         text-align: center;
         padding: 9px 22px;
         margin-top: 2px;

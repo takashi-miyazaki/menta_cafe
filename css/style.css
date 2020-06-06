@@ -89,8 +89,8 @@ nav {
     text-align: center;
     background-color: white;
     border-radius: 50%;
-    right: 249px;
-    bottom: 75px;
+    left: 500px;
+    bottom: 50px;
     box-shadow: 0 0 32px 6px #FFF6E6 inset; }
   .top__img {
     position: relative;
@@ -230,7 +230,6 @@ nav {
 
 .info {
   width: 510px;
-  margin-left: 184px;
   margin-top: 18px; }
   .info__ttl {
     border-bottom: 1px dashed;
@@ -309,7 +308,8 @@ nav {
     font-size: 14px;
     line-height: 22px; }
   .map__btn {
-    width: 219px;
+    width: 220px;
+    height: 40px;
     text-align: center;
     padding: 9px 22px;
     margin-top: 2px;
@@ -393,7 +393,7 @@ nav {
 .scroll {
   display: none;
   position: fixed;
-  bottom: 134px;
+  bottom: 60px;
   right: 78px; }
 
 @media screen and (max-width: 1000px) {
@@ -483,8 +483,9 @@ nav {
     flex-direction: column;
     background-color: #FFF6E6;
     padding-bottom: 50px; }
-    .top::before {
-      display: none; }
+    .top__wrap {
+      display: flex;
+      flex-direction: column; }
     .top__bg {
       display: none; }
     .top__img {

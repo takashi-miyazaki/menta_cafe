@@ -152,9 +152,14 @@
 
 
 
-        &::before {
-            // margin: -28% -18% 0;
-            display: none;
+        // &::before {
+        //     margin: -28% -18% 0;
+        //     display: none;
+        // }
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
         }
 
         &__bg {
