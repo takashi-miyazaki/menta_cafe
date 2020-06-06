@@ -18,28 +18,22 @@ body {
     border-left: solid;
     border-width: 0.5px;
     text-align: center;
-    padding-left: 54px;
-    padding-right: 56px;
-    margin: 18px 0px;
-    margin-top: 24px;
+    margin: 24px 0px 18px 0px;
     border-color: #653F36;
     height: 48px;
-    font-size: 17px; }
+    width: 160px;
+    font-size: 18px; }
   .header__notice {
     border-right: solid;
     text-align: center;
     border-width: 0.5px;
-    padding: 2px 0;
-    padding-right: 30px;
-    padding-left: 25px;
-    margin: 10px 0;
-    margin-top: 22px;
-    margin-right: -8px;
+    margin: 22px 0 10px 0;
     border-color: #653F36;
     height: 48px;
+    width: 160px;
     font-size: 18px; }
   .header__contact {
-    padding: 0 44px; }
+    padding: 0 32px; }
   .header__mail {
     border-right: solid;
     border-bottom: solid;
