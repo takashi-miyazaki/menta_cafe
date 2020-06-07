@@ -257,7 +257,6 @@ nav {
     margin-left: -3px;
     width: 246px;
     height: 40px;
-    line-height: 20px;
     text-align: center;
     padding: 10px 5px;
     border: solid 1px #A33143;
@@ -266,6 +265,7 @@ nav {
     background-color: white; }
     .info__contact p {
       font-size: 16px;
+      line-height: 20px;
       font-family: YuMincho; }
       .info__contact p img {
         margin-right: 9px; }
