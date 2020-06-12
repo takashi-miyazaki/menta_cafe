@@ -250,7 +250,7 @@
             margin: 27px auto 40px auto;
             order: 1;
             height: auto;
-            width: 350px;
+            width: 95%;
             
             h3 {
                 font-size: 21px;
@@ -265,8 +265,14 @@
     }
 
     .-right {
-        top: 18px;
-        left: 15px;
+        top: 10%;
+        left: 0;
+    }
+
+    .-left {
+        top: 10%;
+        left: 0;
+
     }
 
     .contentrvs {
@@ -294,6 +300,7 @@
             margin: 62px auto 0 auto;
             order: 1;
             height: auto;
+            width: 95%;
 
             h3 {
                 font-size: 21px;
@@ -311,7 +318,7 @@
     // }
 
     .post {
-        width: 350px;
+        width: 95%;
         margin:0 auto;
         margin-bottom: -12px;
         padding: 30px 20px;
@@ -376,7 +383,7 @@
     }
 
     .info {
-        width: 390px;
+        width: 100%;
         margin: -3px auto 0 auto;
         // margin-left: 13px;
         // background-image: url("img/bg_footer.png");
@@ -390,7 +397,8 @@
         &__contact {
             margin-left: 0;
             margin-right: 5px;
-            width: 180px;
+            width: 45%;
+            height: auto;
 
             p { 
             font-size: 12px;
@@ -403,6 +411,7 @@
 
         &__tel {
             padding-top: 8px;
+            width: 45%;
             p {
                 font-family: Hiragino Kaku Gothic Pro;
                 font-size: 17px;
@@ -424,7 +433,10 @@
     }
 
     .contactblk {
-        justify-content: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .map {
@@ -433,8 +445,8 @@
 
         &__google {
             position: relative;
-            width: 350px;
-            height: 250px;
+            width: 95%;
+            // height: 250px;
             margin: 0 auto;
             display: block;
 
@@ -470,6 +482,7 @@
         
         h3 {
             padding-bottom: 15px;
+            width: 95%;
         }
 
         p {

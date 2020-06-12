@@ -535,15 +535,18 @@ nav {
       margin: 27px auto 40px auto;
       order: 1;
       height: auto;
-      width: 350px; }
+      width: 95%; }
       .content__text h3 {
         font-size: 21px;
         padding-bottom: 11px; }
       .content__text p {
         font-size: 15px; }
   .-right {
-    top: 18px;
-    left: 15px; }
+    top: 10%;
+    left: 0; }
+  .-left {
+    top: 10%;
+    left: 0; }
   .contentrvs {
     flex-direction: column;
     margin: 0; }
@@ -560,13 +563,14 @@ nav {
     .contentrvs__text {
       margin: 62px auto 0 auto;
       order: 1;
-      height: auto; }
+      height: auto;
+      width: 95%; }
       .contentrvs__text h3 {
         font-size: 21px; }
       .contentrvs__text p {
         margin-top: 15px; }
   .post {
-    width: 350px;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: -12px;
     padding: 30px 20px;
@@ -604,7 +608,7 @@ nav {
     .contact::before {
       display: none; }
   .info {
-    width: 390px;
+    width: 100%;
     margin: -3px auto 0 auto; }
     .info__ttl {
       margin: 0 20px;
@@ -613,13 +617,15 @@ nav {
     .info__contact {
       margin-left: 0;
       margin-right: 5px;
-      width: 180px; }
+      width: 45%;
+      height: auto; }
       .info__contact p {
         font-size: 12px;
         font-family: Hiragino Kaku Gothic Pro;
         letter-spacing: 1px; }
     .info__tel {
-      padding-top: 8px; }
+      padding-top: 8px;
+      width: 45%; }
       .info__tel p {
         font-family: Hiragino Kaku Gothic Pro;
         font-size: 17px;
@@ -631,14 +637,16 @@ nav {
     .info__bizhour {
       display: none; }
   .contactblk {
-    justify-content: center; }
+    justify-content: space-between;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto; }
   .map {
     margin-top: 20px;
     margin-left: 0; }
     .map__google {
       position: relative;
-      width: 350px;
-      height: 250px;
+      width: 95%;
       margin: 0 auto;
       display: block; }
       .map__google iframe {
@@ -661,7 +669,8 @@ nav {
     margin-bottom: 40px;
     padding-bottom: 17px; }
     .-adjust3rd h3 {
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      width: 95%; }
     .-adjust3rd p {
       line-height: 25px; }
   .-adjust4th {
